@@ -16,5 +16,6 @@ This template includes:
 - eslint
 - prettier
 - commitlint
+- sass
 - travis
 - husky
