@@ -1,7 +1,7 @@
 {
   "name": "PROJECT_NAME",
   "private": true,
-  "description": "PROJECT_DESCRITPION",
+  "description": "PROJECT_DESCRIPTION",
   "version": "PROJECT_VERSION",
   "author": "Thibault Friedrich <thibault.friedrich@gmail.com>",
   "scripts": {
@@ -46,7 +46,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react": "^7.12T.4",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^3.0.5",
     "jest": "^24.9.0",

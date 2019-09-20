@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'PROJECT_NAME',
-    description: 'PROJECT_DESCRITION.',
+    description: 'PROJECT_DESCRIPTION.',
     author: 'PROJECT_AUTHOR',
   },
   plugins: [
