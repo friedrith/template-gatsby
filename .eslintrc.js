@@ -17,6 +17,7 @@ module.exports = {
     'prettier',
   ],
   rules: {
+    'react/jsx-one-expression-per-line': 'off',
     /*semi: [2, 'never'],
     'arrow-body-style': 0,
     'no-const-assign': 'error',
