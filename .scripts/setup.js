@@ -1,6 +1,6 @@
-import path from 'path'
-import { promises as fs } from 'fs'
-import { name, description, author } from '../package'
+const path = require('path')
+const fs = require('fs').promises
+const { name, description, author } = require('../package')
 
 /* eslint-disable no-console */
 
