@@ -27,7 +27,15 @@ module.exports = {
         icon: 'src/assets/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        // Override the file regex for SASS
+        sassRuleTest: /\.style.global\.s(a|c)ss$/,
+        // Override the file regex for CSS modules
+        sassRuleModulesTest: /\.style\.s(a|c)ss$/,
+      },
+    },
     'gatsby-plugin-resolve-src',
     'gatsby-plugin-react-svg',
     // this (optional) plugin enables Progressive Web App + Offline functionality

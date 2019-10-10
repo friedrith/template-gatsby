@@ -55,7 +55,7 @@ module.exports = {
           ['~pages', './src/pages'],
           ['~styles', './src/styles'],
         ],
-        extensions: ['.ts', '.js', '.jsx', '.json'],
+        extensions: ['.ts', '.js', '.jsx', '.json', '.scss'],
       },
     },
   },
