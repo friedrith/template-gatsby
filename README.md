@@ -1,6 +1,6 @@
-# template-gatsby
+# template-gatsby [![Build Status](https://travis-ci.org/friedrith/template-gatsby.svg?branch=master)](https://travis-ci.org/friedrith/template-gatsby)
 
-A template for a react with [gatsby](https://www.gatsbyjs.org/) project
+A template for a react project with [gatsby](https://www.gatsbyjs.org/)
 
 ## Getting started
 
