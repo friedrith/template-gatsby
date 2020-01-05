@@ -18,6 +18,17 @@ module.exports = {
   ],
   rules: {
     'react/jsx-one-expression-per-line': 'off',
+    'import/extensions': [
+      'error',
+      'always',
+      {
+        ignorePackages: true,
+        pattern: {
+          jsx: 'never',
+          scss: 'never',
+        },
+      },
+    ],
     /*semi: [2, 'never'],
     'arrow-body-style': 0,
     'no-const-assign': 'error',
