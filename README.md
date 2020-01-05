@@ -4,9 +4,12 @@ A template for a react project with [gatsby](https://www.gatsbyjs.org/)
 
 ## Getting started
 
+```bash
+yarn start
 ```
-gatsby develop
-```
+
+By default the project use default name, description and author. You can change it by
+updating the values in package.json and using `yarn setup`. Notice you can use this command only once
 
 This template includes:
 
